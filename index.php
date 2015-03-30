@@ -1,7 +1,7 @@
 <?php
 
 function __autoload($classname) {
-    $filename = "./class/". $classname .".php";
+    $filename = $classname .".php";
     include_once($filename);
 }
 
