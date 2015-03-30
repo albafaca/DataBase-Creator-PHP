@@ -1,9 +1,6 @@
 <?php
 
-function __autoload($classname) {
-    $filename = $classname .".php";
-    include_once($filename);
-}
+include_once"creador.php";
 
 
 $NewBase=new creador();
